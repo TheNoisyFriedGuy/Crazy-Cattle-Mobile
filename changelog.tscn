@@ -1,0 +1,40 @@
+[gd_scene load_steps=4 format=3 uid="uid://dxm53x2l2swrv"]
+
+[ext_resource type="FontFile" uid="uid://cvvi6o8v4r7dh" path="res://ariblk.ttf" id="1_csru6"]
+[ext_resource type="Script" path="res://changelog.gd" id="1_faw8q"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_uj8wb"]
+line_spacing = 12.0
+font = ExtResource("1_csru6")
+font_size = 24
+
+[node name="changelog" type="Node2D"]
+script = ExtResource("1_faw8q")
+
+[node name="ColorRect" type="ColorRect" parent="."]
+offset_right = 639.0
+offset_bottom = 481.0
+color = Color(0, 0, 0, 1)
+
+[node name="Label" type="Label" parent="."]
+offset_left = 16.0
+offset_top = 24.0
+offset_right = 555.0
+offset_bottom = 388.0
+text = "Changelog:
+-added more extras
+-fixed bugs
+-added controller support (XBOX: A For Horn, 
+Menu for Pause, and Joystick to move.)
+version: 1.5
+released on ??/??/????"
+label_settings = SubResource("LabelSettings_uj8wb")
+
+[node name="Button" type="Button" parent="."]
+offset_left = 534.0
+offset_top = 417.0
+offset_right = 629.0
+offset_bottom = 479.0
+text = "Exit"
+
+[connection signal="pressed" from="Button" to="." method="_on_button_pressed"]
