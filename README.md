@@ -5,4 +5,4 @@ Use [Godot 4.3](https://godotengine.org/download/archive/4.3-stable/) and modify
 # Legal
 I own **NOTHING**, so if the original dev asks me to take this down, i will. all credit goes to [Anna](https://4nn4t4t.itch.io/).
 
-# also, for the guy that said this f*cking sucks, thank you, but open issues on another place.
+# nvm i love you punchoutfan
