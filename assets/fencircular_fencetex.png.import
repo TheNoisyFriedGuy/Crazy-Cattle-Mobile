@@ -1,0 +1,39 @@
+[remap]
+
+importer="texture"
+type="CompressedTexture2D"
+uid="uid://c3rjr18t7fex0"
+path.s3tc="res://.godot/imported/fencircular_fencetex.png-cc363de0ef7dbfe0d79454215ac624b8.s3tc.ctex"
+path.etc2="res://.godot/imported/fencircular_fencetex.png-cc363de0ef7dbfe0d79454215ac624b8.etc2.ctex"
+metadata={
+"imported_formats": ["s3tc_bptc", "etc2_astc"],
+"vram_texture": true
+}
+generator_parameters={
+"md5": "5b5a0b29c9a6f3ec75b9bcea01239065"
+}
+
+[deps]
+
+source_file="res://assets/fencircular_fencetex.png"
+dest_files=["res://.godot/imported/fencircular_fencetex.png-cc363de0ef7dbfe0d79454215ac624b8.s3tc.ctex", "res://.godot/imported/fencircular_fencetex.png-cc363de0ef7dbfe0d79454215ac624b8.etc2.ctex"]
+
+[params]
+
+compress/mode=2
+compress/high_quality=false
+compress/lossy_quality=0.7
+compress/hdr_compression=1
+compress/normal_map=0
+compress/channel_pack=0
+mipmaps/generate=true
+mipmaps/limit=-1
+roughness/mode=0
+roughness/src_normal=""
+process/fix_alpha_border=true
+process/premult_alpha=false
+process/normal_map_invert_y=false
+process/hdr_as_srgb=false
+process/hdr_clamp_exposure=false
+process/size_limit=0
+detect_3d/compress_to=0
