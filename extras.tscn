@@ -1,0 +1,302 @@
+[gd_scene load_steps=37 format=3 uid="uid://etbv1seh6swo"]
+
+[ext_resource type="Script" path="res://extras.gd" id="1_jvupj"]
+[ext_resource type="Texture2D" uid="uid://c7jcrpe8n6228" path="res://options.png" id="2_2cufo"]
+[ext_resource type="LabelSettings" uid="uid://bdxqoxk1s20do" path="res://extrafont.tres" id="3_5381w"]
+[ext_resource type="LabelSettings" uid="uid://b7fguueqofwmu" path="res://extrafont16x16.tres" id="4_38t63"]
+[ext_resource type="Texture2D" uid="uid://d4jy0ll8b2ucn" path="res://wackycube/3dgifmaker84860_90ms_1.png" id="5_befjc"]
+[ext_resource type="Texture2D" uid="uid://cmyux02vlv37s" path="res://wackycube/3dgifmaker84860_90ms_2.png" id="6_cb1m3"]
+[ext_resource type="Texture2D" uid="uid://yse226qyxuq4" path="res://wackycube/3dgifmaker84860_90ms_3.png" id="7_u2hp6"]
+[ext_resource type="Texture2D" uid="uid://dy8l2fh06o5wm" path="res://wackycube/3dgifmaker84860_90ms_4.png" id="8_817ik"]
+[ext_resource type="Texture2D" uid="uid://cdqjiivty44gc" path="res://wackycube/3dgifmaker84860_90ms_5.png" id="9_7qqgo"]
+[ext_resource type="Texture2D" uid="uid://b30wovn0o0bws" path="res://wackycube/3dgifmaker84860_90ms_6.png" id="10_scdi8"]
+[ext_resource type="Texture2D" uid="uid://kn0xp1u0llm" path="res://wackycube/3dgifmaker84860_90ms_7.png" id="11_rbdxg"]
+[ext_resource type="Texture2D" uid="uid://bvogbr7k2rcro" path="res://wackycube/3dgifmaker84860_90ms_8.png" id="12_bot1h"]
+[ext_resource type="Texture2D" uid="uid://cvbqfc8f5mwg6" path="res://wackycube/3dgifmaker84860_90ms_9.png" id="13_pyb0o"]
+[ext_resource type="Texture2D" uid="uid://dkm02ms0bqbc5" path="res://wackycube/3dgifmaker84860_90ms_10.png" id="14_in4pe"]
+[ext_resource type="Texture2D" uid="uid://dng4nxhuee5hd" path="res://wackycube/3dgifmaker84860_90ms_11.png" id="15_k21ta"]
+[ext_resource type="Texture2D" uid="uid://cij0fbll5j2bi" path="res://wackycube/3dgifmaker84860_90ms_12.png" id="16_frtvf"]
+[ext_resource type="Texture2D" uid="uid://vo2rt2458qgk" path="res://wackycube/3dgifmaker84860_90ms_13.png" id="17_syptx"]
+[ext_resource type="Texture2D" uid="uid://y1m857nv8fu7" path="res://wackycube/3dgifmaker84860_90ms_14.png" id="18_j1lt5"]
+[ext_resource type="Texture2D" uid="uid://bd0vpnqbu0chr" path="res://wackycube/3dgifmaker84860_90ms_15.png" id="19_jndnn"]
+[ext_resource type="Texture2D" uid="uid://deu71ob58h030" path="res://wackycube/3dgifmaker84860_90ms_16.png" id="20_4q22i"]
+[ext_resource type="Texture2D" uid="uid://bh1w412wdex5d" path="res://wackycube/3dgifmaker84860_90ms_17.png" id="21_g8xvq"]
+[ext_resource type="Texture2D" uid="uid://rf76i1qk36x" path="res://wackycube/3dgifmaker84860_90ms_18.png" id="22_lydxn"]
+[ext_resource type="Texture2D" uid="uid://cav46dg7xc3bx" path="res://wackycube/3dgifmaker84860_90ms_19.png" id="23_b517i"]
+[ext_resource type="Texture2D" uid="uid://4mr8t1dlsit3" path="res://wackycube/3dgifmaker84860_90ms_20.png" id="24_hjj72"]
+[ext_resource type="Texture2D" uid="uid://cijcp4qbqai4" path="res://wackycube/3dgifmaker84860_90ms_21.png" id="25_tvfbg"]
+[ext_resource type="Texture2D" uid="uid://4lwhaglfr1og" path="res://wackycube/3dgifmaker84860_90ms_22.png" id="26_vlr3s"]
+[ext_resource type="Texture2D" uid="uid://cw7jnif5k5yqo" path="res://wackycube/3dgifmaker84860_90ms_23.png" id="27_nnih6"]
+[ext_resource type="Texture2D" uid="uid://cei4acyljprb2" path="res://wackycube/3dgifmaker84860_90ms_24.png" id="28_65m5o"]
+[ext_resource type="Texture2D" uid="uid://2qmq5yn4rw0l" path="res://wackycube/3dgifmaker84860_90ms_25.png" id="29_h0qo0"]
+[ext_resource type="AudioStream" uid="uid://e5d6j8lwu6du" path="res://world1.wav" id="30_u8kee"]
+[ext_resource type="AudioStream" uid="uid://crsw0s6s6exhm" path="res://world2.wav" id="31_dvfy1"]
+[ext_resource type="AudioStream" uid="uid://ck4al0cy4vn3v" path="res://world3.wav" id="32_4a8if"]
+[ext_resource type="AudioStream" uid="uid://dism5hhtgmtky" path="res://world4.mp3" id="33_7656b"]
+[ext_resource type="AudioStream" uid="uid://dqscjtnint21n" path="res://world5.mp3" id="34_trcj3"]
+[ext_resource type="AudioStream" uid="uid://jm6gaa7jh0c3" path="res://world6.mp3" id="35_cdowr"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_85dha"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("5_befjc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_cb1m3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_u2hp6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_817ik")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_7qqgo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_scdi8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_rbdxg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_bot1h")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_pyb0o")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_in4pe")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15_k21ta")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16_frtvf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17_syptx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18_j1lt5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19_jndnn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20_4q22i")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21_g8xvq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22_lydxn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23_b517i")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24_hjj72")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25_tvfbg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26_vlr3s")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27_nnih6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28_65m5o")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29_h0qo0")
+}],
+"loop": true,
+"name": &"cube",
+"speed": 10.0
+}]
+
+[node name="Extras" type="Node2D"]
+script = ExtResource("1_jvupj")
+
+[node name="Options" type="Sprite2D" parent="."]
+position = Vector2(320, 240)
+texture = ExtResource("2_2cufo")
+
+[node name="ColorRect" type="ColorRect" parent="."]
+offset_left = 112.0
+offset_top = 136.0
+offset_right = 208.0
+offset_bottom = 168.0
+
+[node name="Label" type="Label" parent="."]
+offset_left = 136.0
+offset_top = 144.0
+offset_right = 193.0
+offset_bottom = 167.0
+text = "Extras"
+label_settings = ExtResource("3_5381w")
+
+[node name="Label7" type="Label" parent="."]
+offset_left = 448.0
+offset_top = 216.0
+offset_right = 534.0
+offset_bottom = 251.0
+text = "Jokes"
+label_settings = ExtResource("3_5381w")
+
+[node name="Label4" type="Label" parent="."]
+offset_left = 200.0
+offset_top = 400.0
+offset_right = 256.0
+offset_bottom = 435.0
+text = "Exit"
+label_settings = ExtResource("3_5381w")
+
+[node name="Label2" type="Label" parent="."]
+offset_left = 208.0
+offset_top = 192.0
+offset_right = 472.0
+offset_bottom = 274.0
+text = "Soundtrack"
+label_settings = ExtResource("3_5381w")
+horizontal_alignment = 1
+
+[node name="Label3" type="Label" parent="."]
+offset_left = 88.0
+offset_top = 256.0
+offset_right = 352.0
+offset_bottom = 349.0
+text = "Levels (Buggy)
+Cattle Hawk"
+label_settings = ExtResource("4_38t63")
+
+[node name="Button" type="Button" parent="."]
+self_modulate = Color(1, 1, 1, 0)
+offset_left = 80.0
+offset_top = 288.0
+offset_right = 208.0
+offset_bottom = 320.0
+
+[node name="Button2" type="Button" parent="."]
+self_modulate = Color(1, 1, 1, 0)
+offset_left = 192.0
+offset_top = 400.0
+offset_right = 256.0
+offset_bottom = 440.0
+
+[node name="cube" type="AnimatedSprite2D" parent="."]
+position = Vector2(72, 80)
+scale = Vector2(0.45, 0.45)
+sprite_frames = SubResource("SpriteFrames_85dha")
+animation = &"cube"
+autoplay = "cube"
+frame_progress = 0.567572
+
+[node name="world1" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("30_u8kee")
+
+[node name="world2" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("31_dvfy1")
+
+[node name="world3" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("32_4a8if")
+
+[node name="Label5" type="Label" parent="."]
+offset_left = 296.0
+offset_top = 232.0
+offset_right = 376.0
+offset_bottom = 361.0
+text = "1  2  3
+
+4  5  6"
+label_settings = ExtResource("3_5381w")
+
+[node name="world4" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("33_7656b")
+
+[node name="world5" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("34_trcj3")
+
+[node name="world6" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("35_cdowr")
+
+[node name="Button3" type="Button" parent="."]
+self_modulate = Color(1, 1, 1, 0)
+offset_left = 288.0
+offset_top = 232.0
+offset_right = 320.0
+offset_bottom = 272.0
+
+[node name="Button4" type="Button" parent="."]
+self_modulate = Color(1, 1, 1, 0)
+offset_left = 320.0
+offset_top = 232.0
+offset_right = 352.0
+offset_bottom = 272.0
+
+[node name="Button5" type="Button" parent="."]
+self_modulate = Color(1, 1, 1, 0)
+offset_left = 352.0
+offset_top = 232.0
+offset_right = 384.0
+offset_bottom = 272.0
+
+[node name="Button6" type="Button" parent="."]
+self_modulate = Color(1, 1, 1, 0)
+offset_left = 288.0
+offset_top = 328.0
+offset_right = 320.0
+offset_bottom = 368.0
+
+[node name="Button7" type="Button" parent="."]
+self_modulate = Color(1, 1, 1, 0)
+offset_left = 320.0
+offset_top = 328.0
+offset_right = 352.0
+offset_bottom = 368.0
+
+[node name="Button8" type="Button" parent="."]
+self_modulate = Color(1, 1, 1, 0)
+offset_left = 352.0
+offset_top = 328.0
+offset_right = 384.0
+offset_bottom = 368.0
+
+[node name="Label6" type="Label" parent="."]
+offset_left = 288.0
+offset_top = 280.0
+offset_right = 384.0
+offset_bottom = 315.0
+text = "Stop"
+label_settings = ExtResource("3_5381w")
+horizontal_alignment = 1
+
+[node name="Button9" type="Button" parent="."]
+self_modulate = Color(1, 1, 1, 0)
+offset_left = 288.0
+offset_top = 280.0
+offset_right = 384.0
+offset_bottom = 320.0
+
+[node name="Button10" type="Button" parent="."]
+offset_left = 440.0
+offset_top = 256.0
+offset_right = 540.0
+offset_bottom = 310.0
+text = "Microscopic
+Edition"
+
+[connection signal="pressed" from="Button" to="." method="_on_button_pressed"]
+[connection signal="pressed" from="Button2" to="." method="_on_button_2_pressed"]
+[connection signal="pressed" from="Button3" to="." method="_on_button_3_pressed"]
+[connection signal="pressed" from="Button4" to="." method="_on_button_4_pressed"]
+[connection signal="pressed" from="Button5" to="." method="_on_button_5_pressed"]
+[connection signal="pressed" from="Button6" to="." method="_on_button_6_pressed"]
+[connection signal="pressed" from="Button7" to="." method="_on_button_7_pressed"]
+[connection signal="pressed" from="Button8" to="." method="_on_button_8_pressed"]
+[connection signal="pressed" from="Button9" to="." method="_on_button_9_pressed"]
+[connection signal="pressed" from="Button10" to="." method="_on_button_10_pressed"]
