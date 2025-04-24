@@ -4,3 +4,5 @@ This is the entire Port to the game [CrazyCattle3D](https://4nn4t4t.itch.io/craz
 Use [Godot 4.3](https://godotengine.org/download/archive/4.3-stable/) and modify it as any other Godot game.
 # Legal
 I own **NOTHING**, so if the original dev asks me to take this down, i will. all credit goes to [Anna](https://4nn4t4t.itch.io/).
+
+-# also, for the guy that said this fucking sucks, thank you, but open issues on another place.
