@@ -1,0 +1,18 @@
+[gd_resource type="Theme" load_steps=3 format=3 uid="uid://dy8r0o4fsfep8"]
+
+[ext_resource type="FontFile" uid="uid://cvvi6o8v4r7dh" path="res://ariblk.ttf" id="1_pddsv"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_2e73p"]
+
+[resource]
+default_font = ExtResource("1_pddsv")
+Button/colors/font_color = Color(0, 0, 0, 1)
+Button/colors/font_disabled_color = Color(0.875, 0.875, 0.875, 0.5)
+Button/colors/font_focus_color = Color(0, 0, 0, 1)
+Button/colors/font_hover_color = Color(0, 0.545924, 0.934453, 1)
+Button/colors/font_hover_pressed_color = Color(0.0536234, 0, 0.872918, 1)
+Button/colors/font_outline_color = Color(0, 0, 0, 1)
+Button/colors/font_pressed_color = Color(0.160392, 0.185003, 1, 1)
+Button/font_sizes/font_size = 12
+Button/fonts/font = ExtResource("1_pddsv")
+Panel/styles/panel = SubResource("StyleBoxEmpty_2e73p")

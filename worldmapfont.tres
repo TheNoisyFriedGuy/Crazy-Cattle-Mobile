@@ -1,0 +1,8 @@
+[gd_resource type="LabelSettings" load_steps=2 format=3 uid="uid://b0hl6bdjot3v8"]
+
+[ext_resource type="FontFile" uid="uid://cvvi6o8v4r7dh" path="res://ariblk.ttf" id="1_7qxmw"]
+
+[resource]
+line_spacing = 12.0
+font = ExtResource("1_7qxmw")
+font_size = 24
